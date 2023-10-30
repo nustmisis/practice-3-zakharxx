@@ -36,14 +36,3 @@ def get_plate_type(license_plate):
             return plate_type
 
     return "Fail!"
-
-# Примеры использования функции
-print(get_plate_type("с227на 69"))   # Вывод: 1А
-print(get_plate_type("в555рх 39"))   # Вывод: 1А
-print(get_plate_type("ао365 78"))   # Вывод: 1Б
-print(get_plate_type("ан7331 47"))  # Вывод: 2
-print(get_plate_type("3733мм 55"))   # Вывод: 3
-print(get_plate_type("у576фх 23"))   # Вывод: Fail!
-print(get_plate_type("а777а 05"))    # Вывод: Fail!
-print(get_plate_type("точно не номер"))  # Вывод: Fail!
-
